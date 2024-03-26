@@ -36,7 +36,7 @@ Missing Keywords : []
 Profile Summary : ""
 """
 
-st.title("Smart ATS")
+st.title("©️ Connect-Verse ATS")
 st.text("Improve Your Resume ATS")
 jd = st.text_area("Paste the Job Description here")
 uploaded_file = st.file_uploader("Upload Your Resume", type="pdf", help="Please upload the pdf")

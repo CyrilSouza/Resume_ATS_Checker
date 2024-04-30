@@ -22,9 +22,7 @@ def input_pdf_txt(uploaded_file):
 input_prompt = """
 Hey Act like a skilled or very experienced ATS (Application Tracking System) with a deep understanding of the tech field,
 software engineering, data science, data analyst, big data engineer, Frontend Engineer, and UI/UX Engineer. 
-Your task is to evaluate the resume based on the given job description.
-You must consider the job market is very competitive, and you should provide the best assistance for improving the resumes. 
-Assign the percentage Matching based on JD and the missing keywords with high accuracy.
+Provide a job description for a position in the tech field, such as software engineering, data science, data analysis, big data engineering, frontend engineering, or UI/UX engineering. Then, upload a PDF resume, and I'll evaluate it based on the given job description. I'll assign a percentage match based on how well the resume aligns with the job description, and I'll identify missing keywords with high accuracy
 resume: {text}
 description: {jd}
 
